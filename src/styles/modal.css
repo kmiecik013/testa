@@ -1,0 +1,121 @@
+.model-styles {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f4f4f4;
+  z-index: 1000;
+  border-radius:10px;
+}
+
+.important-content {
+  padding:50px 50px 60px 50px;
+  width:100%;  
+}
+
+
+
+
+.x-botton {
+  display: flex;
+  border:none;
+  background-color: #f4f4f4;
+  font-size: 30px;
+  animation:ease-out;
+  transition: 0.5s;
+  position: absolute;
+  right:15px;
+  top:15px;
+}
+.x-botton:hover {
+  transform: scale(1.2);
+}
+
+.distress-title {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Overpasss";
+  margin-bottom: 5px;
+}
+
+.crisis-title {
+  font-size: 45px;
+  margin-bottom: 40px;
+  font-family: "Poppins";
+
+}
+
+.distress-number {
+  text-align: center;
+  font-size: 20px;
+  font-family: "Overpasss";
+  background-color: yellow;
+ 
+
+}
+
+.crisis-option {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  padding: 10px 30px;
+  margin-bottom: 20px;
+  animation:ease-out;
+  transition: 0.5s;
+  border:solid 2px black;
+
+}
+
+.crisis-option:hover {
+  background-color: rgb(83, 123, 54);
+  cursor: pointer;
+  transform: scale(1.02);
+  color: white;
+  
+}
+
+
+@media (max-width: 768px){
+  .important-content {
+    padding:40px 100px 40px 100px;
+  
+  }
+
+  .x-botton {
+    margin-left:440px;
+  }
+
+  .crisis-title {
+    font-size: 35px;
+    padding-top: 30px;
+  }
+
+  .distres-box {
+    width:300px;
+}
+
+.distress-title {
+  font-size: 20px;
+}
+}
+
+
+@media (max-width: 425px) {
+.important-content {
+  padding: 170px 50px 0px 50px;
+
+}
+.x-botton {
+  margin-left:300px;
+  margin-top:25px;
+  font-size: 20px;
+}
+
+.model-styles {
+  width:350px;
+  height: 500px;
+  border-radius:10px;
+}
+
+}

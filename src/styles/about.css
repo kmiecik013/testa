@@ -1,0 +1,281 @@
+
+@font-face {
+  font-family: Antro_Vectra;
+  src: url("../fonts/Antro_Vectra.otf");
+}
+
+@font-face {
+  font-family: Antro_Vectra_Bold;
+  src: url("../fonts/Antro_Vectra_Bolder.otf");
+}
+
+@font-face {
+  font-family: Creation_demo;
+  src: url("../fonts/Creattion\ Demo.otf");
+}
+
+
+
+.about-section {
+  padding-bottom: 100px;
+  background-color: #728153;
+}
+
+.about-page-structure {
+  margin: 0 0px;
+}
+
+
+.card-body {
+  display: flex;
+  justify-content: space-between;
+  flex-direction:column;
+}
+
+.sage-img {
+  height:500px;
+}
+
+.sage-img2 {
+  width:750px
+}
+
+.sage-img:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.sage-img2 {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+
+.about-page-structure {
+  display: flex;
+  justify-content: space-around;
+}
+
+.art-therapy-description {
+
+ 
+  font-family: "Overpass";
+  font-size: 25px;
+  padding:0px 100px;
+  animation:ease-out;
+  transition: 0.5s;
+  
+}
+
+.art-subtitle {
+  font-size: 80px;
+  font-family: 'Antro_Vectra_Bold';
+  font-weight:bolder;
+  text-align: center;
+  margin-right: 120px;
+  margin-top: 150px;
+  color: white;
+  padding-bottom: 50px;
+}
+.text-on-left {
+  color:black;
+}
+
+.text-on-left {
+  margin: 0 50px;
+  font-size: 20px;;
+}
+
+@media (max-width: 1440px) {
+
+
+
+.about-section {
+  padding-bottom: 100px;
+  background-color: #728153;
+
+}
+
+.card-body {
+  display: flex;
+  justify-content: space-between;
+  flex-direction:column;
+}
+
+.art-therapy-description {
+  font-family: "Overpass";
+  font-size: 20px;
+  padding:0px 100px;
+  animation:ease-out;
+  transition: 0.5s;
+  color:white;
+}
+
+.sage-img {
+  height:400px;
+}
+
+.sage-img2 {
+  width:600px
+}
+
+.sage-img:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.about-page-structure {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.art-subtitle {
+  font-size: 70px;
+  font-family: 'Antro_Vectra_Bold';
+  font-weight:bolder;
+  text-align: center;
+  color: white;
+  padding-bottom: 50px;
+  margin: 80px 20px 0px 20px;
+
+}
+
+
+}
+
+  
+
+@media (max-width: 1024px){ 
+ 
+  
+  .art-therapy-description {
+
+      width: 450px;
+      font-family: "Overpass";
+      font-size: 20px;
+      margin-top:45px;
+    }
+
+    .about-page-structure {
+      margin-top: 100px;
+      display: flex;
+      justify-content: space-around;
+      margin-left:50px;
+    }
+}
+
+
+
+
+
+@media (max-width: 768px){ 
+  .sage-img {
+    height:600px;
+    border-radius: 10px;
+    margin-right:80px;
+  }
+  
+  
+  .art-therapy-description {
+
+      width: 700px;
+      font-family: "Overpass";
+      font-size: 20px;
+      margin-top: 10px;
+      margin-left: 40px;
+    }
+
+    .about-page-structure {
+      margin-top: 40px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      margin-left: 0px;
+      
+    }
+
+    .art-subtitle {
+      font-size: 80px;
+      margin-right: 0px;
+      margin-left:0px;
+    }
+
+    .sage-img2 {
+      display: none;
+    }
+
+    .sage-img {
+      height:400px;
+      margin-top: 20px;
+      align-items: center;
+      margin-right: 0;
+      margin-left:85px;
+
+    }
+}
+
+@media (max-width: 425px){ 
+
+  .sage-img {
+    height:200px;
+    border-radius: 10px;
+  }
+  
+  .art-therapy-description {
+
+      width: 390px;
+      font-family: "Overpass";
+      font-size: 15px;
+      margin-top:30px;
+      margin-bottom: 50px;
+    }
+
+    .about-page-structure {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      padding:0;
+    }
+
+    .art-subtitle {
+      font-size: 48px;
+      text-align: center;
+      margin-right: 50px;
+      margin-left: 0px;
+    }
+}
+
+
+
+@media (max-width: 375px){ 
+
+  .sage-img {
+    display:none;
+  }
+  
+  .art-therapy-description {
+
+      width: 320px;
+      font-family: "Overpass";
+      font-size: 15px;
+      margin-top:30px;
+      margin-bottom: 50px;
+    }
+
+    .about-page-structure {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column-reverse;
+  
+    }
+
+    .art-subtitle {
+      font-size: 10px;
+      text-align: center;
+      font-family: 'Dancing Script', cursive;
+      margin-left:0px;
+      margin-right:0px;
+    }
+}
+

@@ -1,0 +1,168 @@
+@font-face {
+  font-family: Antro_Vectra_Bold;
+  src: url("../fonts/Antro_Vectra_Bolder.otf");
+}
+.slick-slide  {
+  margin-top: 10px !important;
+}
+
+
+.subtitle-service {
+  font-family:"Overpasss";
+  text-align: center;
+  font-size:35px;
+  padding-bottom: 50px;
+}
+
+.react-multi-carousel-dot-list {
+  position:relative!important;
+  
+
+}
+.react-multiple-carousel__arrow {
+ scale:1!important;
+}
+        
+.sage-service {
+  margin-top:50px;
+}
+
+
+.react-multi-carousel-dot-list {
+  position:relative!important;
+  
+
+}
+.react-multiple-carousel__arrow {
+ scale:1!important;
+}
+        
+.sage-service {
+  margin-top:50px;
+}
+
+.slick-next {
+  background-color:rgb(130, 132, 129) !important; 
+}
+
+.slick-prev {
+  background-color:rgb(130, 132, 129) !important; 
+}
+
+.slick-arrow:hover {
+  opacity: 1;
+}
+
+.seperate-card {
+  padding:10px;
+  height: 1000px;
+}
+.subtitle-text {
+  font-family: "Overpasss";
+  font-size: 30px;
+}
+
+.slider-part {
+ padding-top: 70px;
+ margin-left:0px !important;
+}
+  
+.service-title {
+  font-family: 'Overpasss';
+  font-size: 100px;
+  margin-left: 80px;
+  padding-top: 100px;
+}
+
+.future-sess {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.service-part {
+  margin: 0 0;
+}
+
+
+@media (max-width: 768px){
+
+  .service-title {
+    font-size: 90px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    padding-bottom: 80px;
+  }
+
+  .subtitle-text {
+    font-family: "Overpasss";
+    font-style: italic;
+    font-size: 10px;
+    width: 500px;
+  }
+ 
+}
+
+
+@media (max-width: 425px){
+
+  .service-title {
+    font-family: 'Dancing Script', cursive;
+    font-size: 70px;
+    margin-top: 80px;
+    margin-bottom: 0px;
+    margin-left: 80px;
+  }
+
+  .upcoming-sess-title {
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    
+  }
+  
+  .service-bottom-note {
+    font-family: "Overpass";
+    font-style: italic;
+    font-size: 25px;
+    text-align: center;
+  }
+
+.slick-list {
+  padding: 0 0 !important;
+}
+
+}
+
+@media (max-width: 425px){
+
+  .service-title {
+    font-family: 'Antro_Vectra_Bold';
+    font-size: 70px;
+    margin-top: 60px;
+    margin-bottom: 0px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .upcoming-sess-title {
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    text-align: center;
+    
+  }
+  
+  .service-bottom-note {
+    font-family: "Overpass";
+    font-style: italic;
+    font-size: 25px;
+    text-align: center;
+  }
+
+
+}
